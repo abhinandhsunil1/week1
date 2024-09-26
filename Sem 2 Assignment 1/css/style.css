@@ -1,0 +1,85 @@
+html{
+    scroll-behavior: smooth;
+ }
+h1,h2,h3,h4,h5,h6{
+    font-family: "Pirata",sans-serif;
+}
+/** header **/
+header{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    z-index: 9999;
+    background-color: #cacaca;
+}
+header div{
+    flex-grow: 1;
+    width: auto;
+    height: 115px;
+}
+header img{
+    width: auto;
+    height: 75px;
+}
+header menu{
+    display: flex;
+    list-style: none;
+}
+header li{
+    padding: 0px 10px
+}
+header li a{
+    color: #0e0e0e;
+}
+/** masthead **/
+.lesson-masthead{
+    height: 600px;
+    background-color: #443522;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lesson-masthead h1{
+    font-size: 7em;
+    color: #efe9d9;
+    letter-spacing: 1.75px;
+    text-shadow: 4px 3px 4px rgba(56, 56, 56, 0.7);
+}
+/** main content **/
+.lesson-row-one{
+    height:100vh;
+    background-image: url("../img/1031909.jpg");
+    background-size: cover;
+}
+.lesson-row-one div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(255, 235, 192, 0.7);
+    padding: 0 5%;
+    color: #ebebeb;
+    text-shadow: 4px 3px 4px rgba(56, 56, 56, 0.7);
+}
+.lesson-row-one h3{
+    font-size: 5.5em;
+    margin-bottom: 15px;
+}
+.lesson-row-one p{
+    line-height: 1.2;
+}
+.lesson-row-two{
+    padding: 5%;
+    text-align: center;
+}
+.lesson-row-two h3{
+    font-size: 2.5em;
+    
+}
+.lesson-row-two h3 span{
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(231, 177, 0);
+}
