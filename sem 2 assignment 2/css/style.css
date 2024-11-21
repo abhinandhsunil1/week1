@@ -1,0 +1,119 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #ffb222;
+  }
+  
+  header {
+    background: linear-gradient(45deg, #ff3c3c, #ffdd00);
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+span {
+    color: #ffe600;
+}
+  header .logo {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 55px 50px;
+    background-color: #fffcd5;
+    color: rgb(63, 63, 63);
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+  }
+  
+  .hero button {
+    padding: 0.8rem 1.5rem;
+    background: #ff3c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+  }
+  
+  .hero button:hover {
+    background: #ffdd00;
+    color: black;
+  }
+  
+  .details {
+    padding: 60px;
+    text-align: center;
+  }
+  
+  .details img {
+    width: 60%;
+    margin-top: 50px;
+    border-radius: 10px;
+  }
+  
+  .media {
+    padding: 60px;
+    text-align: center;
+  }
+  
+  .media iframe {
+    width: 60%;
+    height: 300px;
+    border-radius: 10px;
+  }
+  
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 60px 1rem;
+  }
+  
+  footer .contact-form {
+    margin-top: 1rem;
+  }
+  
+  footer .contact-form input,
+  footer .contact-form textarea {
+    width: 90%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  footer .contact-form button {
+    padding: 0.8rem 1.5rem;
+    background: #ff3c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer .contact-form button:hover {
+    background: #ffdd00;
+    color: black;
+    transition: 0.5s ease-in-out;
+  }  
